@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Hi+Melody&display=swap');
+body{
+    font-family: 'Hi Melody', cursive;
+}
+
+.status-bar{
+    display: flex;
+    justify-content: center  
+}
+.status-bar{
+    width: 33%;
+}
+
+.status-bar_column:first-child span{
+    margin-right: 5px;
+ }
+.status-bar__column:nth-child(2){
+    display: flex;
+    justify-content: center;
+}
+.status-bar__cloumn:last-child{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.status-bar__cloumn .fa-battery-full{
+    margin: 0px 5px;
+}
