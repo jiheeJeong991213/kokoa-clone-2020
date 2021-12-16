@@ -1,29 +1,74 @@
 @import url('https://fonts.googleapis.com/css2?family=Hi+Melody&display=swap');
+@import"reset.css";
+@import"variabless.css";
+@import"status-bar.css";
+
 body{
-    font-family: 'Hi Melody', cursive;
+    font-family: "Open Sans", sans-serif;
 }
-
-.status-bar{
-    display: flex;
-    justify-content: center  
-}
-.status-bar{
-    width: 33%;
-}
-
-.status-bar_column:first-child span{
-    margin-right: 5px;
+ .welcome-header{
+     margin-top: 90px;
+     text-align: center;
  }
-.status-bar__column:nth-child(2){
-    display: flex;
-    justify-content: center;
-}
-.status-bar__cloumn:last-child{
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-}
+ .welcome-header__title{
+     margin-bottom: 40px;
+     font-size: 25px;
+ }
+ .welcome-header__taxt{
+     width: 90px 0px;
+     text-align: center;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+ }
+ .welcome-header__title{
+     margin-bottom: 20px;
+     font-size: 25px;
+ }
+ .welcome-header__taxt{
+     width: 60%;
+     opacity: 0.7;
+ }
 
-.status-bar__cloumn .fa-battery-full{
-    margin: 0px 5px;
-}
+ #login-form{
+     display: flex;
+     flex-direction: column;
+     margin: 0px 30px;
+ }
+
+ #login-form input{
+     border: none;
+     padding: 15px 0px;
+     font-size: 18px;
+     margin-bottom: 25px;
+     border-bottom: 1px solid rgba(0,0,0,0.2);
+     transition: border-color 0.3s ease-in-out;
+ }
+
+ #login-from input:not([type="submit"]){
+     border-bottom: 1px solid rgba(0,0,0,0.2);
+     transition: border-color 0.3s ease-in-out;
+ }
+
+ #login-form input::placeholder{
+     color: rgba(0,0,0,0.4);
+ }
+
+ #login-form input:focus {
+     border-color: var(yellow);
+ }
+
+ #login-form input[type="sumnit"] {
+     color: var(--yellow);
+     cursor: pointer;
+     font-size: 20px 0px;
+     border-radius: 5px;
+ }
+
+ #login-form a{
+     text-align: center;
+     text-decoration: none;
+     color: inherit;
+     font-size: 13px;
+     color:black;
+ }
