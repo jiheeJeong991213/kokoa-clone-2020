@@ -7,8 +7,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>welcome to kokoa clone</title>
 </head>
+
 <body>
     <div class="status-bar">
+        <div class="status-bar__column">
+            <span>no Service</span>
+            <i class="fas fa-wifi"></i>
+    </div>
+
+    <div class="status-bar__column">
+        <span>18:43</span>
+    </div>
+        
+    <div class="status-bar__column">
+        <span>110%</span>
+        <i class="fas fa-battery-full fa-lg"></i>
+        <i class="fas fa-bolt"></i>
     </div>
 
     <header class="welcome-header">
@@ -18,9 +32,9 @@
         </p>
     </header>
 
-    <form id="login-form">
-        <input type="text" placeholder="email or phone number"/>
-        <input type="password" placeholder="password"/>
+    <form action="friends.html" method="get" id="login-form">
+        <input name="username"  type="text" placeholder="email or phone number"/>
+        <input name="password" type="password" placeholder="password"/>
         <input type="submit" value="log in"/>
         <a href="#"> find kokoa account or password</a>
     </form>
