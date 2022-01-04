@@ -42,12 +42,12 @@
     background-color: var(--yellow);
     position: absolute;
     height: 100vh;
-    width: 100vw;
+    width: 100vh;
     top: 0;
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 132px;
-    animation: hideSplashScreen 0.3s ease-in-out forwards;
+    animation: HideSplashScreen 0.3s ease-in-out forwards;
     animation-delay: 0.3s;
   }
