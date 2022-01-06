@@ -1,0 +1,12 @@
+.more-screen .icoun-row{
+    margin-top: 35px;
+}
+
+.more-suggesticons{
+    margin-top: 50px;
+    border-top: var(--main-border);
+    padding-top: 40px;
+}
+.more-suggesticons__title{
+    margin-bottom: 30px;
+}
