@@ -1,13 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Hi+Melody&display=swap');
 
+@import"reset.css";
+@import"variables.css";
+
 /* components */
 @import"components/status-bar.css";
 @import"components/nav-bar.css";
 @import"components/screen-header.css";
 @import"components/user-components.css";
 @import"components/badge.css";
-@import"variables.css";
-@import"reset.css";
+@import"components/icon-row.css";
+
 
 
 /* screens */
