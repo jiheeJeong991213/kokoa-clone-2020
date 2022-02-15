@@ -100,3 +100,23 @@
 .open-chat__header__count span{
     margin-left: 3px;
 }
+
+@keyframes hearthbeat{
+    0%{
+        color: white;
+        transform: none;
+    }
+    50%{
+        color: tomato;
+        transform: scale(1.5);
+    }
+    100%{
+        color: white;
+        transform: none;
+    }
+}
+
+.open-chat__header__count:hover i{
+    will-change: transform;
+    animation: heartbeat 2s linear infinite;
+}
