@@ -90,3 +90,26 @@
 .message-row--own .message__info{
     flex-direction: row-reverse;
 }
+
+.reply{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 25px;
+    align-items: center;
+}
+
+.reply .reply__column:first-child{
+    width: 10%;
+}
+.reply .reply__column:last-child{
+    width: 90%;
+}
+
+.reply input{
+    height: 30px;
+    width: 100%;
+}
